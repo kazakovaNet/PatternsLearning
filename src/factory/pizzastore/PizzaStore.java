@@ -1,4 +1,6 @@
-package factory;
+package factory.pizzastore;
+
+import factory.pizza.Pizza;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type) {
